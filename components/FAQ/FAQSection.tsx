@@ -33,10 +33,16 @@ const FAQSection: React.FC<Props> = ({ faqItems }) => {
         <h3>Остались вопросы? Пишите!</h3>
         <div>
           <a href="https://wa.me/79372369027">
-            <Image src={whatsapp} alt="whatsapp" width={70} height={70} />
+            <Image
+              src={whatsapp}
+              alt="whatsapp"
+              width={70}
+              height={70}
+              priority
+            />
           </a>
           <a href="https://vk.com/vera_guda">
-            <Image src={vk} alt="vk" width={70} height={70} />
+            <Image src={vk} alt="vk" width={70} height={70} priority />
           </a>
         </div>
       </div>
