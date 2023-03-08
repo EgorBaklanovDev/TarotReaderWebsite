@@ -1,10 +1,9 @@
 import styles from "@/styles/Review.module.css";
-import Image from "next/image";
-import { RevealWrapper } from "next-reveal";
+import Image, { StaticImageData } from "next/image";
 
 interface ReviewProps {
   date: string;
-  image: string;
+  image: StaticImageData;
   description: string;
   name: string;
 }

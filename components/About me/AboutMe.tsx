@@ -23,7 +23,7 @@ export default function AboutMe() {
             </p>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" duration={1000}>
-            <Image src={VeraImg} alt="VeraGuda" />
+            <Image src={VeraImg} alt="VeraGuda" priority />
           </RevealWrapper>
         </div>
         <a href="#">

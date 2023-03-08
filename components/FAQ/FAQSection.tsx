@@ -3,6 +3,8 @@ import { FaqItem } from "./FAQItem";
 import FAQItem from "./FAQItem";
 import styles from "@/styles/FAQSection.module.css";
 import Image from "next/image";
+import whatsapp from "@/public/img/icons8-whatsapp 1.svg";
+import vk from "@/public/img/icons8-vk-com (1) 1.svg";
 import { RevealWrapper } from "next-reveal";
 
 interface Props {
@@ -31,20 +33,10 @@ const FAQSection: React.FC<Props> = ({ faqItems }) => {
         <h3>Остались вопросы? Пишите!</h3>
         <div>
           <a href="https://wa.me/79372369027">
-            <Image
-              src="/img/icons8-whatsapp 1.svg"
-              alt="whatsapp"
-              width={70}
-              height={70}
-            />
+            <Image src={whatsapp} alt="whatsapp" width={70} height={70} />
           </a>
           <a href="https://vk.com/vera_guda">
-            <Image
-              src="/img/icons8-vk-com (1) 1.svg"
-              alt="vk"
-              width={70}
-              height={70}
-            />
+            <Image src={vk} alt="vk" width={70} height={70} />
           </a>
         </div>
       </div>

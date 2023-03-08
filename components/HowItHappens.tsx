@@ -1,6 +1,10 @@
 import styles from "@/styles/HowItHappens.module.css";
 import Card from "./Card";
 import { RevealWrapper } from "next-reveal";
+import Image1 from "@/public/img/Group 4.svg";
+import Image2 from "@/public/img/discussion-square-svgrepo-com 1.svg";
+import Image3 from "@/public/img/38 credit card.svg";
+import Image4 from "@/public/img/Vector.svg";
 
 export default function HowItHappens() {
   return (
@@ -11,7 +15,7 @@ export default function HowItHappens() {
           <Card
             title="1. Обращение"
             description="Вы связываетесь со мной в соц. сетях."
-            image="/img/Group 4.svg"
+            image={Image1}
             night={false}
           />
         </RevealWrapper>
@@ -19,7 +23,7 @@ export default function HowItHappens() {
           <Card
             title="2. Обсуждение"
             description="Мы обсуждаем ваше проблему, вопрос. Вы одобряете тот или иной расклад по выбору."
-            image="/img/discussion-square-svgrepo-com 1.svg"
+            image={Image2}
             night={false}
           />
         </RevealWrapper>
@@ -27,7 +31,7 @@ export default function HowItHappens() {
           <Card
             title="3. Оплата"
             description="Вы оплачиваете расклад. Я приступаю к работе"
-            image="/img/38 credit card.svg"
+            image={Image3}
             night={false}
           />
         </RevealWrapper>
@@ -35,7 +39,7 @@ export default function HowItHappens() {
           <Card
             title="4. Результат"
             description="Вы получаете расклад в письменном виде. Вы можете задать допольнительные вопросы по раскладу."
-            image="/img/Vector.svg"
+            image={Image4}
             night={false}
           />
         </RevealWrapper>
