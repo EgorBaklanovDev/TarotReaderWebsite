@@ -1,0 +1,26 @@
+.aboutMeWrapper {
+  text-align: left;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2rem 2.5%;
+}
+.aboutMeWrapper div {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeWrapper div p {
+  align-self: center;
+  display: block;
+  width: clamp(1rem, 100%, 50rem);
+}
+
+.aboutMeWrapper div img {
+  margin: 3rem 0;
+  align-self: center;
+  width: clamp(1rem, 90%, 25rem);
+  height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+}

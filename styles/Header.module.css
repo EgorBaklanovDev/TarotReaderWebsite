@@ -1,0 +1,12 @@
+.header {
+  padding: 0.5rem 2.5%;
+  min-height: clamp(2rem, 4rem, 6rem);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: var(--accent-color);
+}
+
+.header .contactLinks {
+  display: inline-block;
+  margin-left: auto;
+}

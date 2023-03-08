@@ -1,0 +1,32 @@
+.review {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.review div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.review div ~ p {
+  margin-top: 4rem;
+}
+
+.review div img {
+  border-radius: 50%;
+}
+
+.review div h4 {
+  margin: 1rem;
+}
+
+.review div p {
+  color: var(--desc-color);
+  font-weight: 300;
+}
+
+@media screen and (max-width: 632px) {
+}

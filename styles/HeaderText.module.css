@@ -1,0 +1,49 @@
+.headerText {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+}
+
+.headerText p {
+  font-size: clamp(1rem, 1.8vw, 10rem);
+  color: var(--desc-color);
+  font-weight: 300;
+  line-height: 132%;
+  letter-spacing: 0.025em;
+  margin: 0.5rem 0 6rem;
+}
+
+.headerText a {
+  display: block;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .headerText {
+    text-align: center;
+    height: 75%;
+  }
+  .headerText p {
+    margin-bottom: 2rem;
+    font-size: clamp(1rem, 3vw, 7rem);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headerText {
+    height: 65%;
+  }
+  .headerText p {
+    font-size: clamp(1rem, 4vw, 7rem);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .headerText {
+    height: 55%;
+  }
+  .headerText p {
+    font-size: clamp(1rem, 2vw, 7rem);
+  }
+}
