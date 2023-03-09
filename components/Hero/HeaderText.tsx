@@ -15,7 +15,7 @@ const HeaderText: React.FC<Props> = ({ width }) => {
         Вера Гуда
       </h1>
       <p>Расклады на картах Таро и Ленорман</p>
-      <a href="#">
+      <a href="https://vk.com/vera_guda">
         <button>связаться</button>
       </a>
     </div>

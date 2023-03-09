@@ -71,7 +71,7 @@ export default function Reviews() {
           />
         </SwiperSlide>
       </Swiper>
-      <a href="#">
+      <a href="https://vk.com/topic-99306194_32873238">
         <button>больше отзывов</button>
       </a>
     </section>

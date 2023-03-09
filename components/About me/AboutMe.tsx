@@ -3,6 +3,7 @@ import Image from "next/image";
 import VeraImg from "@/public/img/image 5.png";
 import WhyExactlyMe from "./WhyExactlyMe";
 import { RevealWrapper } from "next-reveal";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -26,9 +27,9 @@ export default function AboutMe() {
             <Image src={VeraImg} alt="VeraGuda" priority />
           </RevealWrapper>
         </div>
-        <a href="#">
+        <Link href="/about">
           <button>Подробнее</button>
-        </a>
+        </Link>
       </section>
       <WhyExactlyMe />
     </>
