@@ -24,6 +24,10 @@ body {
   font-size: clamp(1.2rem, 1.5vw, 10rem);
 }
 
+.html.sr .load-hiddenn {
+  visibility: hidden;
+}
+
 body {
   position: relative;
   background-color: var(--text-color);

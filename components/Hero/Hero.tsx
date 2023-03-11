@@ -15,7 +15,7 @@ export default function Hero() {
         <Header />
         <div className={styles.heroWrapper}>
           {width! > 1000 ? (
-            <RevealWrapper className="load-hidden" duration={1000} delay={200}>
+            <RevealWrapper className="load-hiddenn" duration={1000} delay={200}>
               <div className={styles.imgContainer}>
                 <Image
                   src={heroImage}
@@ -44,7 +44,7 @@ export default function Hero() {
               </div>
             </RevealWrapper>
           ) : width! > 768 ? (
-            <RevealWrapper className="load-hidden" duration={1000} delay={300}>
+            <RevealWrapper className="load-hiddenn" duration={1000} delay={300}>
               <Image
                 src={heroImage}
                 alt="tarot card"
@@ -55,7 +55,7 @@ export default function Hero() {
           ) : (
             ""
           )}
-          <RevealWrapper className="load-hidden" duration={1000} delay={200}>
+          <RevealWrapper className="load-hiddenn" duration={1000} delay={200}>
             <HeaderText width={width} />
           </RevealWrapper>
         </div>
